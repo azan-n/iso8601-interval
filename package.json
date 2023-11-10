@@ -1,10 +1,7 @@
 {
-  "name": "@lit/lit-starter-ts",
-  "private": true,
-  "version": "2.0.0",
-  "description": "A simple web component",
-  "main": "my-element.js",
-  "module": "my-element.js",
+  "name": "iso8601-interval-input",
+  "version": "0.0.0",
+  "description": "A simple input for ISO8601 Intervals",
   "type": "module",
   "scripts": {
     "build": "tsc",
@@ -32,20 +29,11 @@
     "test:prod:watch": "MODE=prod wtr --watch",
     "checksize": "rollup -c ; cat my-element.bundled.js | gzip -9 | wc -c ; rm my-element.bundled.js"
   },
-  "keywords": [
-    "web-components",
-    "lit-element",
-    "typescript",
-    "lit"
-  ],
-  "author": "Google LLC",
   "license": "BSD-3-Clause",
   "dependencies": {
     "lit": "^3.0.0"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
     "@custom-elements-manifest/analyzer": "^0.6.3",
     "@open-wc/testing": "^3.1.5",
     "@rollup/plugin-node-resolve": "^13.3.0",
